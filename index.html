@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Portfolio Website</title>
+    <style>
+        /* Style for the navigation bar */
+        
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #333; /* Background color for nav */
+            padding: 15px 0;
+            width: 100%; /* Full width */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Navigation links */
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem; /* Increase font size */
+            padding: 0 15px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff5733; /* Change color on hover */
+        }
+
+        nav a.active {
+            color: #ff5733; /* Highlight active link */
+            font-weight: bold;
+        }
+        .home-content p {
+            text-align: justify; /* Justify the text */
+            line-height: 1.8; /* Improve readability */
+            padding-right: 15%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+
+        <nav>
+            <a href="index.html" class="active">Home</a>
+           
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+      
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="mine.jpg" alt="Shalini's Picture">
+        </div>
+        <div class="home-content">
+            <!-- <h1>Hi, It's <span>Shalini S</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3> -->
+            <p class="home-content">
+                I am <strong>Shalini S</strong>, a passionate and diligent  Prefinal-year Computer Science and Engineering student at Karpagam College of Engineering. With a strong academic foundation and a CGPA of 8.79, I have developed proficiency in programming languages such as Java and C and have experience working with frameworks like Bootstrap. My technical toolkit includes MySQL, Cloud Firestore, and platforms like Eclipse and Android Studio.
+            </p>
+           
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/shalini-s-a0510026a/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/shalini2135"><i class="fa-brands fa-github"></i></a>
+                <a href="https://leetcode.com/u/717822p346/"><i class="fa-solid fa-code"></i></a>
+            </div>
+            
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
